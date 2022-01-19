@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(14, 9, 19);
+    text-align: center;
+}
+body,
+h1,
+h2,
+p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(100, 40, 156);
+}
+.header {
+    border: 2px solid rgb(100, 40, 156);
+    margin: 20px;
+    padding: 50px;
+    text-align: left;
+    border-radius: 5px;
+}
+.header h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.header p {
+    font-size: 15px;
+}
+.section {
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(100, 40, 156);
+}
+.section .text {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section p {
+    margin-bottom: 20px;
+}
+input,
+select {
+    outline: 0;
+    border: 0;
+    background-color: rgb(14, 9, 19);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(100, 40, 156);
+    color: rgb(100, 40, 156);
+    font-size: 15px;
+}
+.section2,
+.section3 {
+    padding: 20px;
+    border: 2px solid rgb(100, 40, 156);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 20px;
+}
+.size,
+.number {
+    width: 40px;
+}
+button {
+    border: 1px solid rgb(100, 40, 156);
+    background-color: rgb(14, 9, 19);
+    color: rgb(100, 40, 156);
+}
