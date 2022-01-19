@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Seu título</h1>
+        <p>Seu Parágrafo</p>
+    </header>
+    <section class="section">
+        <input class ="text" type="text" oninput="changeh1(this)">
+        <p>Edite o título</p>
+        <input id="text1" class ="text" type="text" oninput="changeP(this)">
+        <p>Edite o parágrafo</p>
+    </section>
+    <section class="section2">
+        <h2>Formatação do Título</h2>
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+        <input type="color" name="Cor" oninput="fontcolor1(this)">
+        <select name="Fonte" id="font" oninput="font(this)">
+            <option>Fonte</option>
+            <option value="a">Arial</option>
+            <option value="t">Times New Roman</option>
+            <option value="v">Verdana</option>
+        </select>
+        <select name="position" class="position" oninput="position(this)">
+            <option value="">Posição</option>
+            <option value="e">Esquerda</option>
+            <option value="c">Centro</option>
+            <option value="d">Direita</option>
+        </select>
+    </section>
+    <section class="section3">
+        <h2>Formatação do Paragráfo</h2>
+        <button name="increase-font2" id="increase-font2" title="Aumentar fonte">A +</button>
+        <button name="decrease-font2" id="decrease-font2" title="Diminuir fonte">A -</button>
+        <input type="color" name="Cor" oninput="fontcolor(this)">
+        <select name="fonte" id="font2" oninput="font2(this)">
+            <option>Fonte</option>
+            <option value="a">Arial</option>
+            <option value="t">Times New Roman</option>
+            <option value="v">Verdana</option>
+        </select>
+        <select name="position" class="position" oninput="position2(this)">
+            <option value="">Posição</option>
+            <option value="e">Esquerda</option>
+            <option value="c">Centro</option>
+            <option value="d">Direita</option>
+        </select>
+    </section>
+<script src="./script.js"></script>
+</body>
+
+</html>
